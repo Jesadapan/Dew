@@ -13,10 +13,11 @@
     <div class="container">
         <div id="divInfo" class="row">
             <div class="col-12">
+                <button class="btn btn-primary" id="btnBack">Back</button>
                 <span id="demo1"></span>
                 <hr>
                 <span id="demo2"></span>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas iure, voluptatibus, provident fuga iste praesentium quas possimus qui sit dignissimos ratione repellat nam iusto? Temporibus, eaque earum. Dolorum, facilis vero?
+              
             </div>
         </div>
         <div id="divMain" class="row">
@@ -92,6 +93,7 @@
         $(()=>{
             $("#divInfo").hide();
             loadJSONArray();
+            ("#btnBack").click(btnBack_click);
         });
       
     </script>
